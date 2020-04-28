@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Cuprum:100,200,300,400,500,600,700');
+
+
+/* ............................................................Special Padding, Margin, Text */
+
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Cuprum", sans-serif;
+    font-weight: 500;
+    color: #fafafa;
+}
+
+.social-links li a i {
+    width: 50px;
+    height: 50;
+    padding: 30px 0;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 8px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+
+
+
+/* ............................................................Heading */
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url("../images/Logo2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -webkit-transition: all .5s ease-in;
+}
+
+/* ............................................................Color*/
+
+.ui-menu-color-home {
+    background-color: #007bff;
+}
+
+.ui-menu-color-facilities {
+    background-color: #20c997;
+}
+
+.ui-menu-color-gallery {
+    background-color: #fd7e14;
+}
+
+.ui-menu-color-contact-us {
+    background-color: #ffc107;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+
+.menuitem {
+    height: 240px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 240px;
+}
+
+.menuitem a i {
+    padding: 45px;
+    display: block;
+    color: #fafafa;
+    font-size: 45px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+/* ............................................................Hover.css */
+
+.hvr-sweep-to-top {
+    background-color: rgba(0,0,0,0.2);
+    height: 240px;
+}
+
+/* ............................................................Footer */
+
+footer {
+    background-color: #20c997;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0; 
+}
+
