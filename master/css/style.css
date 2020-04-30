@@ -17,6 +17,7 @@ h1,h2,h3,h4 {
     color: #fafafa;
 }
 
+
 .social-links li a i {
     width: 50px;
     height: 50;
@@ -37,7 +38,22 @@ h1,h2,h3,h4 {
     background: #e84610;
 }
 
+.row-table {
+    display: table;
+}
 
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Cuprum", sans-serif;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
 
 
 /* ............................................................Heading */
@@ -51,7 +67,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 260px;
     transition: all .5s ease-in;
     -moz-transition: all .5s ease-in;
     -webkit-transition: all .5s ease-in;
@@ -73,6 +89,10 @@ header {
 
 .ui-menu-color-contact-us {
     background-color: #ffc107;
+}
+
+.bg-color-facilities {
+    background-color: #fff;
 }
 
 .menucontainer {
