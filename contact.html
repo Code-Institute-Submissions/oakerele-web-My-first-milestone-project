@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+    <script src="https://kit.fontawesome.com/abdd321d26.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="master/css/style.css">
     <title>Gym</title>
 </head>
@@ -18,23 +19,23 @@
             <div class="col-md-8">
                 <div class="row no-gutters">
                     <div class="d-none d-md-block">
-                        <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signinModal">Sign In / Register</button>
+                        <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Sign In / Register</button>
                     </div>
                 </div>
                 <div class="row no-gutters">
                     <div class="col">
                         <ul id="nav" class="list-inline menucontainer">
                             <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem">
-                                <a href="#" class="hvr-sweep-to-top"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                                <a href="index.html" class="hvr-sweep-to-top"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                             </li>
                             <li class="col-6 col-sm-3 ui-menu-color-facilities list-inline-item menuitem">
-                                <a href="#" class="hvr-sweep-to-top"><i class="fa fa-bicycle" aria-hidden="true"></i><span>Facilities</span></a>
+                                <a href="facilities.html" class="hvr-sweep-to-top"><i class="fa fa-bicycle" aria-hidden="true"></i><span>Facilities</span></a>
                             </li>
                             <li class="col-6 col-sm-3 ui-menu-color-gallery list-inline-item menuitem">
-                                <a href="#" class="hvr-sweep-to-top"><i class="fa fa-image" aria-hidden="true"></i><span>Gallery</span></a>
+                                <a href="gallery.html" class="hvr-sweep-to-top"><i class="fa fa-image" aria-hidden="true"></i><span>Gallery</span></a>
                             </li>
                             <li class="col-6 col-sm-3 ui-menu-color-contact-us list-inline-item menuitem">
-                                <a href="#" class="hvr-sweep-to-top"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact Us</span></a>
+                                <a href="contact.html" class="hvr-sweep-to-top"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact Us</span></a>
                             </li>
                         </ul>
                     </div>
@@ -44,18 +45,63 @@
         </div>
 
     </header>
-    <section>
-
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 bg-color-contact section-column">
+                <div class="row bg-color-contact">
+                    <div class="col">
+                        <h3 class="contact-heading uppercase">Like to join us?</h3>
+                        <h5 class="uppercase">Let's Talk!</h5>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="key">
+                        <p class="uppercase">
+                            Address:
+                        </p>
+                    </div>
+                    <div class="value">
+                        <p>
+                            222 None Exising Street, Bromley, Kent London. BR1 5EZ
+                        </p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="key">
+                        <p class="uppercase">
+                            Tel/Fax:
+                        </p>
+                    </div>
+                    <div class="value">
+                        <p>
+                            0555 208 5888
+                        </p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="key">
+                        <p class="uppercase">
+                            Email:
+                        </p>
+                    </div>
+                    <div class="value">
+                        <p>
+                            fitnessalways@gym.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+         </div>
     </section>
     <footer class="container-fluid">
         <div class="row">
             <div class="col-sm-6">
                 <h4 class="uppercase general-sub">About Us</h4>
-                <P class="inline-block">
+                <p class="inline-block">
                     Fully equiped Gym with equipment of the latest technolgy in 
                     gymnasium and well trained and experienced coaching team. 
                     A trial will convince you that this is the gym where you belong. 
-                </P>
+                </p>
             </div>
             <div class="col-sm-6">
                 <h4 class="uppercase general-sub">Social</h4>
@@ -94,5 +140,38 @@
             </div>
         </div>
     </footer>
+        <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sign In / Register</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                        <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="password">
+                    </div>
+                    <div class="form-group">
+                        <label for="repeatPassword">Repeat Password</label>
+                        <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                    </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

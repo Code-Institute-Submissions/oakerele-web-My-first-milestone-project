@@ -147,6 +147,50 @@ header {
     height: 240px;
 }
 
+/* ............................................................Image */
+
+.container-fluid {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* ----------------------------------------------Contact */
+
+.contact-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.contact-item .key,
+.contact-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.contact-item .key p,
+.contact-item .value p {
+    margin: 0;
+}
+
+.contact-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+
+/* ............................................................Opening Hours */
+
+.opening-hours {
+    background-color: #b7c0be;
+    color: #fafafa;
+    padding-left: 10px;
+}
+
+
 /* ............................................................Footer */
 
 footer {
