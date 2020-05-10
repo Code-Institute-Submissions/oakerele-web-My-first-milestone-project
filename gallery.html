@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,21 +9,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
     <script src="https://kit.fontawesome.com/abdd321d26.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="master/css/style.css">
+    <link href="sticky-footer.css" rel="stylesheet">
     <title>Gym</title>
 </head>
-<body>
-    <header>
-        <div class="row no-gutters">
+<body class="d-flex flex-column h-100">
+    <header class="container-fluid">
+        <div class="row no-gutters" style="
+        /* height: 240px; */
+        /* display: flex; */">
             <a href="index.html" class="col-md-4 logo"></a>
             <div class="col-md-8">
                 <div class="row no-gutters">
-                    <div class="d-none d-md-block">
-                        <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Sign In / Register</button>
-                    </div>
-                </div>
-                <div class="row no-gutters">
                     <div class="col">
-                        <ul id="nav" class="list-inline menucontainer">
+                        <ul id="nav" class="list-inline menucontainer" style="margin: 0 auto;">
                             <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem">
                                 <a href="index.html" class="hvr-sweep-to-top"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                             </li>
@@ -34,78 +32,51 @@
                                 <a href="gallery.html" class="hvr-sweep-to-top"><i class="fa fa-image" aria-hidden="true"></i><span>Gallery</span></a>
                             </li>
                             <li class="col-6 col-sm-3 ui-menu-color-contact-us list-inline-item menuitem">
-                                <a href="contact.html" class="hvr-sweep-to-top"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact Us</span></a>
+                                <a href="#contact" class="hvr-sweep-to-top"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact Us</span></a>
                             </li>
                         </ul>
                     </div>
                 </div>
-
             </div>
         </div>
     </header>
-    <section class="container-fluid" style="padding: 10px 10px;">
+    <main role="main" class="flex-shrink-0" >
+    <section class="container">
         <div class="row">
-            <div class="col-md-12 my-5">
-                <div class="media">
-                    <div class="d-none d-sm-block" style="display: block; margin-left: auto; margin-right: auto;">
-                        <img src="master/images/1506073356100383.jpg" alt="">
-                        <img src="master/images/1506073346100383.jpg" alt="">
-                        <img src="master/images/1506073358100383.jpg" alt="">
-                        <img src="master/images/157312725210113.jpg" alt="">
-                        <img src="master/images/157312725610113.jpg" alt="">
-                        <img src="master/images/157312724810113.jpg" alt="">
-                        <img src="master/images/157312722810113.jpg" alt="">
-                        <img src="master/images/157312724310113.jpg" alt="">
-                        <img src="master/images/157312726110113.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
+            <img src="master/images/1506073356100383.jpg" alt class="col-sm-12 col-md-4 mb-4">
+            <img src="master/images/1506073346100383.jpg" alt class="col-sm-12 col-md-4 mb-4">
+            <img src="master/images/1506073358100383.jpg" alt class="col-sm-12 col-md-4 mb-4">
+            <img src="master/images/157312725210113.jpg" alt class="col-sm-12 col-md-4 mb-4">
+            <img src="master/images/157312725610113.jpg" alt class="col-sm-12 col-md-4 mb-4">
+            <img src="master/images/157312724810113.jpg" alt class="col-sm-12 col-md-4 mb-4">
+            <img src="master/images/157312722810113.jpg" alt class="col-sm-12 col-md-4 mb-4">
+            <img src="master/images/157312724310113.jpg" alt class="col-sm-12 col-md-4 mb-4">
+            <img src="master/images/157312726110113.jpg" alt class="col-sm-12 col-md-4 mb-4">
+         </div>
     </section>
-    <footer class="container-fluid">
-        <div class="row">
-            <div class="col-sm-6">
-                <h4 class="uppercase general-sub">About Us</h4>
-                <p class="inline-block">
-                    Fully equiped Gym with equipment of the latest technolgy in 
-                    gymnasium and well trained and experienced coaching team. 
-                    A trial will convince you that this is the gym where you belong. 
-                </p>
-            </div>
-            <div class="col-sm-6">
-                <h4 class="uppercase general-sub">Social</h4>
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
+    </main>
+    <footer class="footer mt-auto py-3">
+        <div class="container"> 
+            <div class="col-sm-6 offset-sm-3">
+                <h4 class="uppercase general-sub" style="text-align: center;">Social</h4>
+                    <div style="display: flex;
+                    justify-content: center;">
                         <a target="_blank" href="#">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
+                            <i class="fa fa-facebook social-icon" aria-hidden="true"></i>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
                         <a target="_blank" href="#">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            <span class="sr-only">Linkedin</span>
+                            <i class="fa fa-linkedin social-icon" aria-hidden="true"></i>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
                         <a target="_blank" href="#">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
+                            <i class="fa fa-instagram social-icon" aria-hidden="true"></i>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
                         <a target="_blank" href="#">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
+                            <i class="fa fa-twitter social-icon" aria-hidden="true"></i>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
                         <a target="_blank" href="#">
-                            <i class="fa fa-youtube" aria-hidden="true"></i>
-                            <span class="sr-only">YouTube</span>
+                            <i class="fa fa-youtube social-icon" aria-hidden="true"></i>
                         </a>
-                    </li>
-                </ul>
+                    </div>
             </div>
         </div>
     </footer>
