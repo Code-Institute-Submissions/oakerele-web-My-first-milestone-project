@@ -38,9 +38,7 @@ h1,h2,h3,h4 {
     -o-transition: all 0.35s ease-in-out;
 }
 
-a i:hover {
-    background: #e84610;
-}
+
 
 .social {
     display: flex;
@@ -140,7 +138,7 @@ header {
 .menuitem a i {
     padding: 45px;
     display: block;
-    color: #fafafa;
+    color: #fff;
     font-size: 45px;
 }
 
@@ -157,9 +155,14 @@ header {
 
 /* ............................................................Hover.css */
 
-.hvr-sweep-to-top {
-    background-color: rgba(0, 0, 0, 0.2);
+.hvr-sweep-to-top:before {
+    background-color: #c5bfbf;
     height: 240px;
+}
+
+
+a i:hover {
+    background: #e74711;
 }
 
 /* ............................................................Image */
