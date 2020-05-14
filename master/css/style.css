@@ -21,12 +21,9 @@ h1,h2,h3,h4 {
 /* ............................................................Social */
 
 .social-icon {
-    width: 40px;
-    height: 40px;
-    padding: 30px 0;
+    padding: 13px;
     border-radius: 50%;
     font-size: 15px;
-    line-height: 8px;
     text-align: center;
     color: #fafafa;
     background: #8f8f8f;
@@ -79,7 +76,7 @@ header {
     background: url("../images/Logo2.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     min-height: 240px;
     transition: all .5s ease-in;
     -moz-transition: all .5s ease-in;
@@ -161,7 +158,7 @@ header {
 }
 
 
-a i:hover {
+.social-icon:hover {
     background: #e74711;
 }
 
@@ -171,6 +168,8 @@ a i:hover {
 display: block;
 margin-left: auto;
 margin-right: auto;
+padding-left: 0px;
+padding-right: 0px;
 }
 
 /* ----------------------------------------------Contact */
@@ -199,8 +198,19 @@ margin-right: auto;
     vertical-align: top;
 }
 
+/* ----------------------------------------------About Us */
 
-/* ............................................................Opening Hours */
+
+.inline-block {
+    background: #777777;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 .opening-hours {
     background-color: #b7c0be;
@@ -208,6 +218,16 @@ margin-right: auto;
     padding-left: 10px;
 }
 
+/* ............................................................Contact */
+#contact {
+    height: 400px;
+    font-size: 16px;
+    font-weight: 500;
+    background: gold;
+    display: inline-block;
+    align-items: center;
+    justify-content: center
+}
 
 /* ............................................................Footer */
 
