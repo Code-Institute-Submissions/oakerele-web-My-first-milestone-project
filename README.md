@@ -1,18 +1,100 @@
 <img src="master/images/Logo2.png" style="margin: 0; width: 20%;">
 
-## User-Centric Frontend Development - Code Institute – First Milestone Project 
+# User-Centric Frontend Development - Code Institute/O Akerele – First Milestone Project 
 
 
 ## Preamble
-This website is my first milestone project. It is a fake website for a GYM named Fitness Always Gym. 
-It is designed to showcase what I have learnt so far in HTML and CSS.
-This project is designed for people who are interested in getting fit through physical exercises 
-for a particular area. The website provides information as to where to find the Gym - address and phone 
-number, the time-table for the times they are opened and our social media contact platforms such as Facebook, 
-Twitter etc. The whole idea was to create a simple website that is clear and simple to navigate with detailed 
-information in as little text as possible.  
+This website is my first milestone project. It is a fake website for a GYM named Fitness Always Gym.<br> 
+It is designed to showcase what I have learnt so far in HTML and CSS.<br>
+This project is designed for people who are interested in getting fit through physical exercises<br> 
+for a particular area. The website provides information as to where to find the Gym - address and phone<br> 
+number, the time-table for the times they are opened and our social media contact platforms such as Facebook,<br> 
+Twitter etc. The whole idea was to create a simple website that is clear and simple to navigate with detailed<br> 
+information in as little text as possible. 
 
 
+## UX:
+
+The main goal, following the industry standards, was to make website easily accessible, include all<br> 
+information required while keeping minimalistic design. It is note worthy that the website is progressive,<br> 
+that is, quite a lot of features can still be added to it and as the gym grows bigger with additional facilities,<br>
+they can be introduced to the wbsite.
+
+## Wireframe using Balsamiq:
+* Sketching
+* Drawings
+* Features
+* Design with Balsamiq
+
+## There are 4 key pages on this website:
+
+* [Home Page](#home-page)
+* [Facilities Page](#facilities-page)
+* [Gallery Page](#gallery-page)
+* [Contact Us](#contact-page)
+
+
+Every page is designed to show the header and the footer on top and bottom respectively.<br> 
+At the middle are the sections that displays the message/information for the page.  The header<br> 
+contains the Logo for the gym and the menu for other pages. The logo was designed by myself and the<br> 
+menu bar design is borrowed from the Resume project. The footer contains the social media addresses<br> 
+of the gym.
+
+## Home page
+
+Home page includes the logo, and menu bar on the top.  The middle contain the following:<br>
+
+a)  	the about us section<br>
+b)	    the front view of the gym<br> 
+c)	    the opening times of the gym and<br>
+d)	    contact information e.g. address, phone number and email.<br>
+
+As mentioned before, the footer shows the social media e.g. facebook, twitter etc addresses of the gym for contact purposes.
+
+
+## Facilities Page
+
+The Facilities page gives information about available services in addition to the Header and Footer. At the moment only,<br> 
+6 facilities are available and they are:- swimming; cardio; free weight; resistance; fitness and personal training. 
+
+
+## Gallery Page
+
+The third page is about the equipment, machines and tools available to members for training in pictures.<br> 
+This page is meant to advertise the equipment available to potential members to attract them to the gym.
+
+
+## Contact Us
+
+This page has been linked to the bottom of the home page where the address, the phone number and the the email<br> 
+address of the gym can be located. 
+
+
+## Features to implement
+
+As earlier stated, the website  is a work-in-progress and can still be improve upon. In future, potential members<br> 
+will be able to register online to become members and those that just want to use the Gym's services without been<br> 
+members will be able to book online for whatever services they want at the time they want it from the comfort of their<br> 
+homes as against what obtains now (booking and paying over the phone and in the office).    
+
+## Technologies Used
+
+The following technologies were used to create the website:
+
+* Gitpod full template - workspace
+* Bootstrap 4.4.1 - used to simplify the structure and to make it responsive.
+* FontAwesome 4.7.0 - accessed for social media icons.
+* jquery 3.4.1 - used to reference Javascript modal
+* Google Fonts - used to style the website fonts.
+* Balsamiq - tool used to create wireframe.
+* Testing
+
+
+## The code has been validated using:
+
+#### W3C Mark-up Validation Service
+
+#### W3C CSS Validation Service
 
 
 
@@ -25,6 +107,10 @@ information in as little text as possible.
 This project is simple Lorem ipsum dolor generator.
 	
 ## Technologies
+
+
+
+
 Project is created with:
 * Lorem version: 12.3
 * Ipsum version: 2.33
@@ -34,52 +120,15 @@ Project is created with:
 
 
 
-UX:
-The main goal, following the industry standards, was to make website easily accessible, include all information required while keeping minimalistic design. It is note worthy that the website is progressive, that is, quite a lot of features can still be added to it and as the gym grows bigger with additional facilities, they can be introduced to the wbsite.
 
-Wireframe using Balsamiq:
-Sketching
-Drawings
-Features
-Design with Balsamiq
 
-There are 4 key pages on this website:
-Home page
-Facilities page
-Gallery page
-Contact us 
-Every page is designed to show the header and the footer on top and bottom respectively. At the middle are the sections that displays the message/information for the page.  The header contains the Logo for the gym and the menu for other pages. The logo was designed by myself and the menu bar design is borrowed from the Resume project. The footer contains the social media addresses of the gym.
-Home page
-Home page includes my logo, and menu bar on the top.  The middle contain the following: 
-a)	the about us section
-b)	 the front view of the gym 
-c)	the opening times of the gym and
-d)	contact information e.g. address, phone number and email.  
-As mentioned before, the footer shows the social media e.g. facebook, twitter etc addresses of the gym for contact purposes.
-Facilities Page
-The Facilities page gives information about available services in addition to the Header and Footer. At the moment only 6 facilities are available and they are:- swimming; cardio; free weight; resistance; fitness and personal training. 
-Gallery Page
-The third page is about the equipment, machines and tools available to members for training in pictures. This page is meant to advertise the equipment available to potential members to attract them to the gym.
-Contact Us
-This page has been linked to the bottom of the home page where the address, the phone number and the the email address of the gym can be located. 
 
-Features to implement
-As earlier stated, the website  is a work-in-progress and can still be improve upon. In future, potential members will be able to register online to become members and those that just want to use the Gym's services without been members will be able to book online for whatever services they want at the time they want it from the comfort of their homes as against what obtains now (booking and paying over the phone and in the office).    
 
-Technologies Used
-The following technologies were used to create the website:
-Gitpod full template - workspace
-Bootstrap - used to simplify the structure and to make it responsive.
-FontAwesome - accessed for social media icons.
-jquery - used to reference Javascript modal
-Google Fonts - used to style the website fonts.
-Balsamiq - tool used to create wireframe.
-Testing
-The code has been validated using:
 
-W3C Mark-up Validation Service
 
-W3C CSS Validation Service
+
+
+
 
 This site has met the objective of creating online presence with minimalistic design and content, but providing enough information and platform to enable fast contact.
 The website has been tested across multiple browsers (Chrome, Safari, FireFox) and across different screen sizes (Galaxy C5, various iPhones, Huawei, iPad, iPad Pro and laptops) to make sure is responsive. Bootstrap has been used to achieve this.
