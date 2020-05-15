@@ -1,10 +1,39 @@
 <img src="master/images/Logo2.png" style="margin: 0; width: 20%;">
 
-User-Centric Frontend Development - Code Institute – First Milestone Project
+## User-Centric Frontend Development - Code Institute – First Milestone Project 
 
-Preamble
-This website is my first milestone project. It is a fake website for a GYM named Fitness Always Gym. It is designed to showcase what I have learnt so far in HTML and CSS.
-This project is designed for people who are interested in getting fit through physical exercises for a particular area. The website provides information as to where to find the Gym - address and phone number, the time-table for the times they are opened and our social media contact platforms such as Facebook, Twitter etc. The whole idea was to create a simple website that is clear and simple to navigate with detailed information in as little text as possible.  
+
+## Preamble
+This website is my first milestone project. It is a fake website for a GYM named Fitness Always Gym. 
+It is designed to showcase what I have learnt so far in HTML and CSS.
+This project is designed for people who are interested in getting fit through physical exercises 
+for a particular area. The website provides information as to where to find the Gym - address and phone 
+number, the time-table for the times they are opened and our social media contact platforms such as Facebook, 
+Twitter etc. The whole idea was to create a simple website that is clear and simple to navigate with detailed 
+information in as little text as possible.  
+
+
+
+
+
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+
+## General info
+This project is simple Lorem ipsum dolor generator.
+	
+## Technologies
+Project is created with:
+* Lorem version: 12.3
+* Ipsum version: 2.33
+* Ament library version: 999
+
+
+
+
+
 UX:
 The main goal, following the industry standards, was to make website easily accessible, include all information required while keeping minimalistic design. It is note worthy that the website is progressive, that is, quite a lot of features can still be added to it and as the gym grows bigger with additional facilities, they can be introduced to the wbsite.
 
