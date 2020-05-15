@@ -3,7 +3,7 @@
 # User-Centric Frontend Development - Code Institute/O Akerele – First Milestone Project 
 
 
-## Preamble
+***Preamble***<br>
 This website is my first milestone project. It is a fake website for a GYM named Fitness Always Gym.<br> 
 It is designed to showcase what I have learnt so far in HTML and CSS.<br>
 This project is designed for people who are interested in getting fit through physical exercises<br> 
@@ -87,8 +87,10 @@ The following technologies were used to create the website:
 * jquery 3.4.1 - used to reference Javascript modal
 * Google Fonts - used to style the website fonts.
 * Balsamiq - tool used to create wireframe.
-* Testing
 
+
+
+# Testing
 
 ## The code has been validated using:
 
@@ -96,68 +98,54 @@ The following technologies were used to create the website:
 
 #### W3C CSS Validation Service
 
+This site has met the objective of creating online presence with minimalistic design and content, but providing enough<br> 
+information and platform to enable fast contact.<br>
+The website has been tested across multiple browsers (Chrome, Safari, FireFox) and across different screen sizes<br> 
+(Galaxy C5, various iPhones, Huawei, iPad, iPad Pro and laptops) to make sure is responsive. Bootstrap has been used<br> 
+to achieve this.<br>
+All fonts, images and other attributes have been changed accordingly to fit different screen sizes. Media queries have<br>
+been used to make them work.
 
 
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
+## Deployment 
 
-## General info
-This project is simple Lorem ipsum dolor generator.
-	
-## Technologies
-
-
-
-
-Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-This site has met the objective of creating online presence with minimalistic design and content, but providing enough information and platform to enable fast contact.
-The website has been tested across multiple browsers (Chrome, Safari, FireFox) and across different screen sizes (Galaxy C5, various iPhones, Huawei, iPad, iPad Pro and laptops) to make sure is responsive. Bootstrap has been used to achieve this.
-All fonts, images and other attributes have been changed accordingly to fit different screen sizes. Media queries have been used to make them work.
-
-Deployment
 The site was developed using Gitpod full template - workspace to commit and push to GitHub.
 
-The following steps can be taken to access my page from GitHub repository.
-On Github navigate to my-first-milestone-project
-From the menu at the top click on settings
-Scroll down to the GitHub pages section
-Under Source section click on dropdown menu and select Master Branch as your GitHub pages publishing source.
+## The following steps can be taken to access my page from GitHub repository. 
+
+On Github navigate to my-first-milestone-project<br>
+From the menu at the top click on settings<br>
+Scroll down to the GitHub pages section<br>
+Under Source section click on dropdown menu and select Master Branch as your GitHub pages publishing source.<br>
 Select save.
-The url for this project is as follows:
+
+***The url for this project is as follows:***
+
 https://oakerele-web.github.io/my-first-milestone-project
 
-Credits
-Content
+
+## Credits 
+
+### Content 
+
 All the text contents in  this project are original because they are written by me.  
-Media
-All icons are from Bootstrap website including the styling while the font styling is from Font Awesome website. 
-The Logo was formed and designed by me with Adobe XD using a fake name formed for the gym.
-Pictures used in the gallery page and the home page were copied from existing websites of gyms on the internet
 
-Acknowledgments
-The Codeinstitute Resume project by Matt Rudge is what inspired this project and I chose this project from a list of other proposed projects by the Institute. 
-Special thanks to Maranatha Ilesanmi - my course mentor - first for his objective view of the project at the selection stage then assisting me with applications for my Wireframe/Mockups and finally this Milestone 1 project which he has helped me a lot to review, re-structure and suggested solutions to my pertinent questions. I also thank Claire of the Student Care department for her support and understanding when I needed adjustment to my calender. I am also grateful to all our colleagues in Slack, thank you all.   
+### Media 
 
-Disclaimer
+All icons are from Bootstrap website including the styling while the font styling is from Font Awesome website.<br> 
+The Logo was formed and designed by me through Placeit.org using the fake name formed for the gym.<br>
+Pictures used in the gallery page and the home page were copied from existing websites of gyms on the internet<br>
 
-The content of this website is for educational purposes only.
+## Acknowledgments 
+
+The Codeinstitute Resume project by Matt Rudge is what inspired this project and I chose this project from a list of<br>
+other proposed projects by the Institute.<br>
+Special thanks to Maranatha Ilesanmi - my course mentor - first for his objective view of the project at the selection<br> 
+stage then assisting me with applications for my Wireframe/Mockups and finally this Milestone 1 project which he has helped<br> 
+me a lot to review, re-structure and suggested solutions to my pertinent questions. I also thank Claire of the Student Care<br> 
+department for her support and understanding when I needed adjustment to my calender. I am also grateful to all our colleagues<br>
+in Slack, thank you all.   
+
+### Disclaimer 
+
+*The content of this website is for educational purposes only.*
