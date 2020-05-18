@@ -1,7 +1,6 @@
-<img src="master/images/Logo2.png" style="margin: 0; width: 20%;">
+<img src="master/images/Logo2.png" style="margin: 0; width: 80%;">
 
 # User-Centric Frontend Development - Code Institute/O Akerele – First Milestone Project 
-
 
 ***Preamble***<br>
 This website is my first milestone project. It is a fake website for a GYM named Fitness Always Gym.<br> 
@@ -12,27 +11,42 @@ number, the time-table for the times they are opened and our social media contac
 Twitter etc. The whole idea was to create a simple website that is clear and simple to navigate with detailed<br> 
 information in as little text as possible. 
 
+# Table of Contents
+1. [User Experience](#user-experience)
+2. [Wireframe](#wireframe)
+3. [Existing Features](#existing-features)
+    - [Home Page](#home-page)
+    - [Facilities Page](#facilities-page)
+    - [Gallery Page](#gallery-page)
+    - [Contact Us](#contact-page)
+4. [Features to implement](#features-to-implement) 
+5. [Technologies Used](#technologies-used)
+6. [Testing](#testing)
+7. [Deployment](#deployment)
+8. [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
+    - [Acknowledgement](#acknowledgement)
 
-## UX:
+# User Experience:
 
 The main goal, following the industry standards, was to make website easily accessible, include all<br> 
 information required while keeping minimalistic design. It is note worthy that the website is progressive,<br> 
 that is, quite a lot of features can still be added to it and as the gym grows bigger with additional facilities,<br>
 they can be introduced to the wbsite.
 
-## Wireframe using Balsamiq:
+# Wireframe using Balsamiq:
 * Sketching
 * Drawings
 * Features
 * Design with Balsamiq
 
-## There are 4 key pages on this website:
-
+# Existing Features:
+There are 4 key pages on this website:
 * [Home Page](#home-page)
 * [Facilities Page](#facilities-page)
 * [Gallery Page](#gallery-page)
 * [Contact Us](#contact-page)
-
 
 Every page is designed to show the header and the footer on top and bottom respectively.<br> 
 At the middle are the sections that displays the message/information for the page.  The header<br> 
@@ -51,18 +65,15 @@ d)	    contact information e.g. address, phone number and email.<br>
 
 As mentioned before, the footer shows the social media e.g. facebook, twitter etc addresses of the gym for contact purposes.
 
-
 ## Facilities Page
 
 The Facilities page gives information about available services in addition to the Header and Footer. At the moment only,<br> 
 6 facilities are available and they are:- swimming; cardio; free weight; resistance; fitness and personal training. 
 
-
 ## Gallery Page
 
 The third page is about the equipment, machines and tools available to members for training in pictures.<br> 
 This page is meant to advertise the equipment available to potential members to attract them to the gym.
-
 
 ## Contact Us
 
@@ -70,14 +81,14 @@ This page has been linked to the bottom of the home page where the address, the 
 address of the gym can be located. 
 
 
-## Features to implement
+# Features to implement
 
 As earlier stated, the website  is a work-in-progress and can still be improve upon. In future, potential members<br> 
 will be able to register online to become members and those that just want to use the Gym's services without been<br> 
 members will be able to book online for whatever services they want at the time they want it from the comfort of their<br> 
 homes as against what obtains now (booking and paying over the phone and in the office).    
 
-## Technologies Used
+# Technologies Used
 
 The following technologies were used to create the website:
 
@@ -88,9 +99,29 @@ The following technologies were used to create the website:
 * Google Fonts - used to style the website fonts.
 * Balsamiq - tool used to create wireframe.
 
-
-
 # Testing
+
+## Header
+
+The header has a logo on the left hand side and the menu bar at the right hand side. The Menu contains the name and<br>  
+a Font Awesome icon for each of the features. When a user hovers their mouse over the menu, it hovers up to show the<br> 
+exact menu item that is tobe opened for emphasis and the background color of ash. This has been manually tested and it<br> 
+works all across the web pages. Any of the pages can be seen and navigated from every page. It has been tested and found<br> 
+to be responsive. . The header acts responsively across all resolutions too.
+  
+## Footer
+
+The footer contains just the social media i.e. Facebook; Linkedin; Instagram; Twitter and YouTube. It is designed to share<br> 
+light green color with the facilities menu and centered. It is also designed to be sticky. The social media are represented by<br> 
+Font Awesome Icons which are also styled with hover effect when the mouse goes over the icons. This has been tested across all<br> 
+the pages and it holds true. 
+
+## Home Page 
+
+The home page otherwise known as the landing page contains three sections viz: about us/picture of the front view of Fitness Always gym;<br> 
+the opening hours and contact details. The about us is a catching statement about the gymnasium to attract new customers.<br>
+It shared the row 50:50 with the front view photo of the gym. 
+
 
 ## The code has been validated using:
 
@@ -107,7 +138,7 @@ All fonts, images and other attributes have been changed accordingly to fit diff
 been used to make them work.
 
 
-## Deployment 
+# Deployment 
 
 The site was developed using Gitpod full template - workspace to commit and push to GitHub.
 
@@ -124,13 +155,13 @@ Select save.
 https://oakerele-web.github.io/my-first-milestone-project
 
 
-## Credits 
+# Credits 
 
-### Content 
+## Content 
 
 All the text contents in  this project are original because they are written by me.  
 
-### Media 
+## Media 
 
 All icons are from Bootstrap website including the styling while the font styling is from Font Awesome website.<br> 
 The Logo was formed and designed by me through Placeit.org using the fake name formed for the gym.<br>
@@ -146,6 +177,6 @@ me a lot to review, re-structure and suggested solutions to my pertinent questio
 department for her support and understanding when I needed adjustment to my calender. I am also grateful to all our colleagues<br>
 in Slack, thank you all.   
 
-### Disclaimer 
+## Disclaimer 
 
 *The content of this website is for educational purposes only.*
