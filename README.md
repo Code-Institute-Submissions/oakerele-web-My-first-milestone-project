@@ -109,6 +109,35 @@ exact menu item that is tobe opened for emphasis and the background color of ash
 works all across the web pages. Any of the pages can be seen and navigated from every page. It has been tested and found<br> 
 to be responsive. . The header acts responsively across all resolutions too.
   
+## Home Page 
+
+The home page otherwise known as the landing page contains three sections viz: about us/picture of the front view of Fitness Always<br> 
+gym; the opening hours and contact details. The about us is a catching statement about the gymnasium to attract new customers.<br>
+It shared the row 50:50 with the front view photo of the gym. The section two is the opening hours of the gymnasium. It shows when the gym<br>
+is opened in the morning and closed in the night from Monday to Friday. This was styled to position in the center. Finally, the contact<br> 
+session which shows how the gym could be contacted either by post, telephone and/or email. The section is colored with gold after the menu<br> 
+bar contact-us color and linked with the contact page i.e. when the contact page is clicked from the menu bar, it links user to this contact<br> 
+page and it does not matter which page the user is, once the contact page is clicked, it immediately directs user to this section. This was<br> 
+tested across all the devices and it works fine.
+
+## Facilities Page
+
+This page explains to potential customers what services are available in the gym. At the moment, only six services are available but as time<br> 
+goes on, the gym will expand and add other services. The services are styled with Font Awesome Icons by the side of the title of each service.<br>
+The test carried out on this page was to navigate to it from another page and it works fine. Also, it works nicely across all the devices: mobile<br> 
+phone, ipad and desktop. 
+
+## Gallery Page
+
+When a user navigates to this page, it shows the different pictures of machines and tools available for use in the gymnasium. The pictures are<br> 
+nicely padded to diferentiate them from one another. It has been tested to show these pictures across all the devices and the page can be navigated<br> 
+from other pages.
+ 
+## Contact Us Page
+
+This has been explained vividly in the section 3 of the home page. When this page is clicked, it takes user straight to that section of the home page<br>
+and this has been tested and found to be true from all other pages.
+
 ## Footer
 
 The footer contains just the social media i.e. Facebook; Linkedin; Instagram; Twitter and YouTube. It is designed to share<br> 
@@ -116,17 +145,9 @@ light green color with the facilities menu and centered. It is also designed to 
 Font Awesome Icons which are also styled with hover effect when the mouse goes over the icons. This has been tested across all<br> 
 the pages and it holds true. 
 
-## Home Page 
-
-The home page otherwise known as the landing page contains three sections viz: about us/picture of the front view of Fitness Always gym;<br> 
-the opening hours and contact details. The about us is a catching statement about the gymnasium to attract new customers.<br>
-It shared the row 50:50 with the front view photo of the gym. 
-
-
 ## The code has been validated using:
 
-#### W3C Mark-up Validation Service
-
+#### W3C Mark-up Validation Service and
 #### W3C CSS Validation Service
 
 This site has met the objective of creating online presence with minimalistic design and content, but providing enough<br> 
@@ -140,7 +161,9 @@ been used to make them work.
 
 # Deployment 
 
-The site was developed using Gitpod full template - workspace to commit and push to GitHub.
+The site was developed using Gitpod full template - workspace to commit and push to GitHub.<br>
+GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight<br>
+ from a repository on GitHub, optionally runs the files through a build process, and publishes a website.
 
 ## The following steps can be taken to access my page from GitHub repository. 
 
@@ -149,6 +172,15 @@ From the menu at the top click on settings<br>
 Scroll down to the GitHub pages section<br>
 Under Source section click on dropdown menu and select Master Branch as your GitHub pages publishing source.<br>
 Select save.
+
+## To Clone the Repository
+Navigate to the Github remote repository: oakerele-web.github.io<br>
+Click 'Clone or Download'.<br>
+Copy the clone HTTPS or SSH by clicking on the copy button.<br>
+Open Git Bash.<br>
+Change the current working directory to the location where you want the cloned directory to be made.<br>
+Type git clone, and then paste the URL you copied.<br>
+Press Enter. Your local clone will be created.<br>
 
 ***The url for this project is as follows:***
 
