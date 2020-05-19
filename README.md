@@ -4,7 +4,7 @@
 
 ***Preamble***<br>
 This website is my first milestone project. It is a fake website for a GYM named Fitness Always Gym.<br> 
-It is designed to showcase what I have learnt so far in HTML and CSS.<br>
+It is designed to showcase what I have learned so far in HTML and CSS.<br>
 This project is designed for people who are interested in getting fit through physical exercises<br> 
 for a particular area. The website provides information as to where to find the Gym - address and phone<br> 
 number, the time-table for the times they are opened and our social media contact platforms such as Facebook,<br> 
@@ -31,9 +31,9 @@ information in as little text as possible.
 # User Experience:
 
 The main goal, following the industry standards, was to make website easily accessible, include all<br> 
-information required while keeping minimalistic design. It is note worthy that the website is progressive,<br> 
+information required while keeping minimalistic design. It is noteworthy that the website is progressive,<br> 
 that is, quite a lot of features can still be added to it and as the gym grows bigger with additional facilities,<br>
-they can be introduced to the wbsite.
+they can be introduced to the website.
 
 # Wireframe using Balsamiq:
 * Sketching
@@ -49,26 +49,26 @@ There are 4 key pages on this website:
 * [Contact Us](#contact-page)
 
 Every page is designed to show the header and the footer on top and bottom respectively.<br> 
-At the middle are the sections that displays the message/information for the page.  The header<br> 
+In the middle are the sections that display the message/information for the page.  The header<br> 
 contains the Logo for the gym and the menu for other pages. The logo was designed by myself and the<br> 
 menu bar design is borrowed from the Resume project. The footer contains the social media addresses<br> 
 of the gym.
 
 ## Home page
 
-Home page includes the logo, and menu bar on the top.  The middle contain the following:<br>
+The Home page includes the logo, and menu bar on the top.  The middle contains the following:<br>
 
 a)  	the about us section<br>
 b)	    the front view of the gym<br> 
 c)	    the opening times of the gym and<br>
 d)	    contact information e.g. address, phone number and email.<br>
 
-As mentioned before, the footer shows the social media e.g. facebook, twitter etc addresses of the gym for contact purposes.
+As mentioned before, the footer shows social media e.g. Facebook, Twitter etc addresses of the gym for contact purposes.
 
 ## Facilities Page
 
 The Facilities page gives information about available services in addition to the Header and Footer. At the moment only,<br> 
-6 facilities are available and they are:- swimming; cardio; free weight; resistance; fitness and personal training. 
+6 facilities are available and they are - swimming; cardio; free weight; resistance; fitness and personal training. 
 
 ## Gallery Page
 
@@ -77,14 +77,14 @@ This page is meant to advertise the equipment available to potential members to 
 
 ## Contact Us
 
-This page has been linked to the bottom of the home page where the address, the phone number and the the email<br> 
+This page has been linked to the bottom of the home page where the address, the phone number and the email<br> 
 address of the gym can be located. 
 
 
 # Features to implement
 
-As earlier stated, the website  is a work-in-progress and can still be improve upon. In future, potential members<br> 
-will be able to register online to become members and those that just want to use the Gym's services without been<br> 
+As earlier stated, the website  is a work-in-progress and can still be improved upon. In the future, potential members<br> 
+will be able to register online to become members and those that just want to use the Gym's services without being<br> 
 members will be able to book online for whatever services they want at the time they want it from the comfort of their<br> 
 homes as against what obtains now (booking and paying over the phone and in the office).    
 
@@ -97,27 +97,27 @@ The following technologies were used to create the website:
 * FontAwesome 4.7.0 - accessed for social media icons.
 * jquery 3.4.1 - used to reference Javascript modal
 * Google Fonts - used to style the website fonts.
-* Balsamiq - tool used to create wireframe.
+* Balsamiq - the tool used to create the wireframe.
 
 # Testing
 
 ## Header
 
-The header has a logo on the left hand side and the menu bar at the right hand side. The Menu contains the name and<br>  
+The header has a logo on the left-hand side and the menu bar at the right-hand side. The Menu contains the name and<br>  
 a Font Awesome icon for each of the features. When a user hovers their mouse over the menu, it hovers up to show the<br> 
-exact menu item that is tobe opened for emphasis and the background color of ash. This has been manually tested and it<br> 
+exact menu item that is to be opened for emphasis and the background color of ash. This has been manually tested and it<br> 
 works all across the web pages. Any of the pages can be seen and navigated from every page. It has been tested and found<br> 
-to be responsive. . The header acts responsively across all resolutions too.
+to be responsive. The header acts responsively across all resolutions too.
   
 ## Home Page 
 
 The home page otherwise known as the landing page contains three sections viz: about us/picture of the front view of Fitness Always<br> 
 gym; the opening hours and contact details. The about us is a catching statement about the gymnasium to attract new customers.<br>
-It shared the row 50:50 with the front view photo of the gym. The section two is the opening hours of the gymnasium. It shows when the gym<br>
-is opened in the morning and closed in the night from Monday to Friday. This was styled to position in the center. Finally, the contact<br> 
-session which shows how the gym could be contacted either by post, telephone and/or email. The section is colored with gold after the menu<br> 
-bar contact-us color and linked with the contact page i.e. when the contact page is clicked from the menu bar, it links user to this contact<br> 
-page and it does not matter which page the user is, once the contact page is clicked, it immediately directs user to this section. This was<br> 
+It shared the row 50:50 with the front view photo of the gym. Section two is the opening hours of the gymnasium. It shows when the gym<br>
+is opened in the morning and closed in the night from Monday to Friday. This was styled to be positioned in the center. Finally, the contact<br> 
+session shows how the gym could be contacted either by post, telephone and/or email. The section is colored with gold after the menu<br> 
+bar contact-us color and linked with the contact page i.e. when the contact page is clicked from the menu bar, it links a user to this contact<br> 
+page and it does not matter which page the user is, once the contact page is clicked, it immediately directs the user to this section. This was<br> 
 tested across all the devices and it works fine.
 
 ## Facilities Page
@@ -125,35 +125,39 @@ tested across all the devices and it works fine.
 This page explains to potential customers what services are available in the gym. At the moment, only six services are available but as time<br> 
 goes on, the gym will expand and add other services. The services are styled with Font Awesome Icons by the side of the title of each service.<br>
 The test carried out on this page was to navigate to it from another page and it works fine. Also, it works nicely across all the devices: mobile<br> 
-phone, ipad and desktop. 
+phone, iPad and desktop. 
 
 ## Gallery Page
 
 When a user navigates to this page, it shows the different pictures of machines and tools available for use in the gymnasium. The pictures are<br> 
-nicely padded to diferentiate them from one another. It has been tested to show these pictures across all the devices and the page can be navigated<br> 
+nicely padded to differentiate them from one another. It has been tested to show these pictures across all the devices and the page can be navigated<br> 
 from other pages.
  
 ## Contact Us Page
 
-This has been explained vividly in the section 3 of the home page. When this page is clicked, it takes user straight to that section of the home page<br>
+This has been explained vividly in section 3 of the home page. When this page is clicked, it takes the user straight to that section of the home page<br>
 and this has been tested and found to be true from all other pages.
 
 ## Footer
 
-The footer contains just the social media i.e. Facebook; Linkedin; Instagram; Twitter and YouTube. It is designed to share<br> 
+The footer contains just the social media i.e. Facebook; Linkedin; Instagram; Twitter and YouTube. It is designed to share a<br> 
 light green color with the facilities menu and centered. It is also designed to be sticky. The social media are represented by<br> 
 Font Awesome Icons which are also styled with hover effect when the mouse goes over the icons. This has been tested across all<br> 
-the pages and it holds true. 
+the pages and it holds. 
+
+## SPELLING & GRAMMAR
+
+All Fitness Always Gym text content and this Readme file has been been tested for grammar and spelling mistakes through Grammarly.
 
 ## The code has been validated using:
 
 #### W3C Mark-up Validation Service and
 #### W3C CSS Validation Service
 
-This site has met the objective of creating online presence with minimalistic design and content, but providing enough<br> 
+This site has met the objective of creating an online presence with minimalistic design and content, but providing enough<br> 
 information and platform to enable fast contact.<br>
-The website has been tested across multiple browsers (Chrome, Safari, FireFox) and across different screen sizes<br> 
-(Galaxy C5, various iPhones, Huawei, iPad, iPad Pro and laptops) to make sure is responsive. Bootstrap has been used<br> 
+The website has been tested across multiple browsers (Chrome, Safari, Firefox) and different screen sizes<br> 
+(Galaxy C5, various iPhones, Huawei, iPad, iPad Pro and laptops) to make sure it is responsive. Bootstrap has been used<br> 
 to achieve this.<br>
 All fonts, images and other attributes have been changed accordingly to fit different screen sizes. Media queries have<br>
 been used to make them work.
@@ -165,12 +169,12 @@ The site was developed using Gitpod full template - workspace to commit and push
 GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight<br>
  from a repository on GitHub, optionally runs the files through a build process, and publishes a website.
 
-## The following steps can be taken to access my page from GitHub repository. 
+## The following steps can be taken to access my page from the GitHub repository. 
 
 On Github navigate to my-first-milestone-project<br>
 From the menu at the top click on settings<br>
 Scroll down to the GitHub pages section<br>
-Under Source section click on dropdown menu and select Master Branch as your GitHub pages publishing source.<br>
+Under Source section click on the dropdown menu and select Master Branch as your GitHub Pages publishing source.<br>
 Select save.
 
 ## To Clone the Repository
@@ -182,7 +186,7 @@ Change the current working directory to the location where you want the cloned d
 Type git clone, and then paste the URL you copied.<br>
 Press Enter. Your local clone will be created.<br>
 
-***The url for this project is as follows:***
+***The URL for this project is as follows:***
 
 https://oakerele-web.github.io/my-first-milestone-project
 
@@ -195,7 +199,7 @@ All the text contents in  this project are original because they are written by 
 
 ## Media 
 
-All icons are from Bootstrap website including the styling while the font styling is from Font Awesome website.<br> 
+All icons are from the Bootstrap website including the styling while the font styling is from Font Awesome website.<br> 
 The Logo was formed and designed by me through Placeit.org using the fake name formed for the gym.<br>
 Pictures used in the gallery page and the home page were copied from existing websites of gyms on the internet<br>
 
@@ -206,7 +210,7 @@ other proposed projects by the Institute.<br>
 Special thanks to Maranatha Ilesanmi - my course mentor - first for his objective view of the project at the selection<br> 
 stage then assisting me with applications for my Wireframe/Mockups and finally this Milestone 1 project which he has helped<br> 
 me a lot to review, re-structure and suggested solutions to my pertinent questions. I also thank Claire of the Student Care<br> 
-department for her support and understanding when I needed adjustment to my calender. I am also grateful to all our colleagues<br>
+department for her support and understanding when I needed adjustment to my calendar. I am also grateful to all our colleagues<br>
 in Slack, thank you all.   
 
 ## Disclaimer 
