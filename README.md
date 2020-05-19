@@ -41,6 +41,8 @@ they can be introduced to the website.
 * Features
 * Design with Balsamiq
 
+<a href="/workspace/My-first-milestone-project/master/images/New Wireframe.png">Wireframe</a>
+
 # Existing Features:
 There are 4 key pages on this website:
 * [Home Page](#home-page)
