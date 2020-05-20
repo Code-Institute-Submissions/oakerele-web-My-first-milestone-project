@@ -190,7 +190,7 @@ Press Enter. Your local clone will be created.<br>
 
 ***The URL for this project is as follows:***
 
-https://oakerele-web.github.io/my-first-milestone-project
+https://oakerele-web.github.io/My-first-milestone-project/
 
 
 # Credits 
